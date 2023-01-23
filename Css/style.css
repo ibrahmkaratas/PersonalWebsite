@@ -1,0 +1,331 @@
+/* Css Dosyası */
+
+/* Boşlukları Kaldırma */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#page{
+    border-style: none;
+    border-color:rgb(252, 191, 130);    
+    width: 900px;
+    min-height: 600px;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* Banner */
+
+#banner{
+    border-style: none;
+    width: 900px;
+    height: 100px;
+    border-width:1px;
+    background-color:rgb(77, 74, 74);
+}
+
+#logo{
+    width: 80px;
+    height: 60px;
+    background-color:rgb(77, 74, 74);
+    float: left;
+    position: relative;
+    left: 20px;
+    top:10px;
+}
+
+#social{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(77, 74, 74);
+    float: right;
+    position: relative;
+    right: 50px;
+    top: 35px;
+}
+
+#ik{
+   font: 600 3rem verdana; 
+   text-align: center;
+   color:rgb(255, 153, 51);
+   text-shadow:
+   1px 1px 1px rgb(255,178, 102),
+   1px 2px 1px rgb(255,178, 102),
+   1px 3px 1px rgb(255,178, 102),
+   1px 4px 1px rgb(255,178, 102),
+   1px 5px 1px rgb(255,178, 102),
+   1px 6px 1px rgb(255,178, 102),
+   1px 12px 6px rgba(251, 184, 96, 0.664),
+   1px 15px 10px rgba(251, 184, 96, 0.661),
+   1px 20px 35px rgba(251, 184, 96, 0.662);
+}
+
+#icon{
+    width: 40px;
+    float: right;
+    margin-left: 40px;
+}
+
+/* Home Page */
+#menu{
+    border-style:none;
+    border-width: 1px;
+    border-color: rgb(252, 191, 130);
+    background-color: rgb(77, 74, 74);
+    width: 898px;
+    height: 50px;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li{
+    border-style:solid;
+    border-width:1px;
+    border-color: rgb(255, 153, 51);
+    background-color: rgb(252, 191, 130);
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 70px;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 14px;
+}
+
+#menu ul a{
+    color:rgb(5, 115, 183);
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#menu ul a:hover{
+    color:white;
+}
+
+/* İçerik Kodları */
+
+#content{
+    width:600px;
+    min-height:400px;
+    float:left;
+}
+
+#sidemenu{
+    background-color: rgb(77, 74, 74);
+    width: 300px;
+    min-height: 400px;
+    float:right;
+}
+
+.mypic{
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#info p{
+    margin-left:20px;
+    padding-top: 15px;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+#info h1{
+    background-color:rgb(77, 74, 74);
+    color:rgb(252, 191, 130);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 900px;
+}
+
+#education{
+    width: 600px;
+    float: left;
+    background-color:rgb(77, 74, 74);
+    color: rgb(252, 191, 130);
+    padding-top: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#certificate{
+    height: 30px;
+    color: rgb(77, 74, 74);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.p4e{
+    width:180px;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+#contact-title{
+    color:rgb(77, 74, 74);
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+input[type=text]{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size:16px;
+
+
+}
+
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 10px;
+    width: 200px;
+
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+input[type=submit]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color:rgb(252, 191, 130);
+    color: rgb(5, 115, 183);
+    border-radius: 10px;
+}
+
+input[type=reset]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: rgb(252, 191, 130);
+    color:rgb(5, 115, 183);
+    border-radius: 10px;
+}
+
+#content p{
+    margin-left:20px;
+    padding-top: 15px;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-top: 40px;
+    
+}
+
+
+#title{
+    color:rgb(77, 74, 74);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+#text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-indent: 20px;     
+}
+
+/* Aside */
+
+
+#sidemenu li{
+    color: rgb(252, 191, 130);
+    list-style: disc;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#sidemenu a{
+    color:rgb(252, 191, 130);
+    text-decoration: none;
+}
+
+#sidemenu a:hover{
+    color: white;
+}
+
+#sidehead{ 
+    border-style: none;
+    background-color:rgb(77, 74, 74);
+    color:rgb(252, 191, 130);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+#altmenu{
+    border-style: none;
+    background-color:rgb(77, 74, 74);
+    width: 900px;
+    height:48px;
+    float: left;
+    text-align: center;
+    color:rgb(252, 191, 130);
+}
+
+#altmenu a{
+    color: rgb(252, 191, 130);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#altmenu a:hover{
+    color: white;    
+}
+
+.kucukmetin{
+    margin-top: 12px;
+    font-size: 10px;
+}
